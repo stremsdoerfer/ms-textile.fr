@@ -1,0 +1,77 @@
+body {
+  background-color: rgb(252, 252, 250);
+  max-width: 1280px;
+  margin: auto;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+#navigation {
+  text-align: right;
+}
+
+.nav-item {
+  display: inline-block;
+  padding: 32px;
+}
+
+#hero {
+  background-color: rgb(202, 196, 187);
+  background-image: url('img/hero.jpg');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;   
+}
+
+#hero-text {
+  padding: 100px 0 100px 36px;
+}
+
+.section {
+  margin-top: 64px;
+}
+
+#about-picture-wrapper, #offer-picture-wrapper {
+  text-align: center;
+}
+
+#about-picture, #offer-picture {
+  height: 300px;
+}
+
+#about-text {
+  height: 300px;
+  padding-right: 128px;
+}
+
+.org-phase {
+  padding: 16px;
+}
+
+.org-phase-title {
+  text-align: center;
+  padding-top: 16px;
+}
+
+.org-icon {
+  max-width: 100%;
+}
+
+#contact {
+  background-color: rgb(201, 196, 188);  
+}
+
+#contact-title {
+  padding-top: 48px;
+}
+
+#contact-text {
+  padding: 48px 0 48px 0;
+}
+
+#footer {
+  text-align: center;
+  padding: 36px;
+}
