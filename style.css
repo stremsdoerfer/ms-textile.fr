@@ -1,11 +1,38 @@
+@font-face {
+  font-family: AvenirNext;
+  src: local('AvenirNext'), url(fonts/AvenirNextLTPro-Regular.otf) format('opentype');
+}
+
+@font-face {
+  font-family: TimeBurner;
+  src: local('TimeBurner'), url(fonts/timeburnernormal.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: TimeBurnerBold;
+  src: local('TimeBurnerBold'), url(fonts/timeburnerbold.ttf) format('truetype');
+}
+
 body {
   background-color: rgb(252, 252, 250);
   max-width: 1080px;
   margin: auto;
+  font-family: AvenirNext;
+}
+
+h2 {
+  font-size: 28px;
+  font-family: TimeBurnerBold;
 }
 
 h3 {
   font-size: 22px;
+  font-family: TimeBurnerBold;
+}
+
+.row {
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 #navigation {
@@ -14,7 +41,7 @@ h3 {
 
 .nav-item {
   display: inline-block;
-  padding: 32px;
+  padding: 72px 32px 72px 32px;
   text-transform: uppercase;
 }
 
@@ -24,6 +51,11 @@ h3 {
 
 .nav-item a:hover {
   text-decoration: underline;
+}
+
+#nav-item-logo {
+  float: left;
+  margin-top: 16px;
 }
 
 #nav-item-contact {
@@ -86,7 +118,7 @@ h3 {
 }
 
 #contact-title {
-  padding-top: 48px;
+  padding: 48px 0 0 48px;
 }
 
 #contact-text {
