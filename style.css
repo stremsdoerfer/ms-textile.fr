@@ -130,11 +130,40 @@ h3 {
   padding: 36px;
 }
 
+/*************************************
+Tablets
+************************************* */
+@media (min-width:768px) and (max-width: 1199px) {
+  .nav-item {
+    padding: 72px 16px 72px 16px;
+  }
+
+  #nav-item-contact {
+    padding-right: 32px;
+  }
+}
+
 
 /*************************************
 Landscape Mobile
 ************************************* */
-@media (max-width: 600px) {
+@media (max-width: 767px) {
+
+  p, ul {
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  #hero-text {
+    padding: 100px 32px 100px 32px;
+  }
 
   #hero-picture-wrapper {
     height: 400px;
@@ -161,14 +190,17 @@ Landscape Mobile
     width: 100%;
   }
 
-  #navigation {
+  .nav-item {
     display: none;
   }
-}
 
-/*************************************
-Landscape Mobile
-************************************* */
-@media (min-width: 576px) and (max-width: 1200px) {
+  #nav-item-logo {
+    float: none;
+  }
 
+  #navigation {
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
 }
